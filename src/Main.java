@@ -1,11 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        task1();
+        task();
+        task2();
     }
 
-    public static void task1() {
-        System.out.println("Переменные");
+    public static void task() {
         System.out.println("Задача 1");
         int dog = 8;
         double cat = 3.6;
@@ -29,5 +29,24 @@ public class Main {
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
+    }
+
+    public static void task2() {
+        System.out.println("Задача 4");
+        var friend = 19;
+        System.out.println(friend);
+        friend += 2;
+        System.out.println(friend);
+        friend /= 7;
+        System.out.println(friend);
+        System.out.println("Задача 5");
+        var frog = 3.5;
+        System.out.println(frog);
+        frog *= 10;
+        System.out.println(frog);
+        frog /= 3.5;
+        System.out.println(frog);
+        frog += 4;
+        System.out.println(frog);
     }
 }
