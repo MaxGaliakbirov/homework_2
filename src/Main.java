@@ -1,11 +1,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        task();
+        task1();
         task2();
+        task3();
     }
 
-    public static void task() {
+    public static void task1() {
         System.out.println("Задача 1");
         int dog = 8;
         double cat = 3.6;
@@ -48,5 +49,29 @@ public class Main {
         System.out.println(frog);
         frog += 4;
         System.out.println(frog);
+    }
+
+    public static void task3() {
+        System.out.println("Задача 6");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var totalWeight = firstBoxer + secondBoxer;
+        System.out.println(totalWeight);
+        var weightDifference = secondBoxer - firstBoxer;
+        System.out.println(weightDifference);
+        System.out.println("Задача 7");
+        weightDifference = secondBoxer - firstBoxer;
+        System.out.println(weightDifference);
+        weightDifference = secondBoxer % firstBoxer;
+        System.out.println(weightDifference);
+        System.out.println("Задача 8");
+        var totalHours = 640;
+        var timePerEmployee = 8;
+        var totalEmployee = totalHours / timePerEmployee;
+        System.out.println("Всего работников в компании - " + totalEmployee + " человек" );
+        var additionalEmployees = totalEmployee + 94;
+        var totalAdditionalHours = additionalEmployees * 8;
+        System.out.println("Если в компании работает " + additionalEmployees + " человека, то всего " +
+                totalAdditionalHours + " часов работы может быть поделено между сотрудниками");
     }
 }
